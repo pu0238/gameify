@@ -10,18 +10,11 @@
           alt="Workflow"
         />
       </div>
-      <Search />
+      <Search @updated-params='$emit("updatedParams")'/>
     </div>
   </div>
 </template>
 
 <script setup>
 import Search from "./Search.vue";
-import { onMounted } from "vue";
-
-onMounted(async () => {
-  //const route = useRoute();
-  const params = new URLSearchParams(window.location.search)
-  console.log(params.get('item'));
-});
 </script>

@@ -22,3 +22,7 @@ body {
 .text-mint {
   color: var(--mint)
 }
+
+.bd-mint {
+  background: var(--mint)
+}

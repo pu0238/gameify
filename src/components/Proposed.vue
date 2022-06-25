@@ -49,7 +49,7 @@ function openItem(name) {
 
 onMounted(async () => {
   axios
-    .get("http://localhost:3000/api/featuredcategories/?cc=pl&l=pl")
+    .get(`${window.location.origin}/api/featuredcategories/?cc=pl&l=pl`)
     .then((res) => {
       if (res.data) steamData.value = res.data.top_sellers;
       if (steamData.value)

@@ -12,7 +12,7 @@
     <h3 class="mt-4 text-sm text-gray-300">
       <a class="cursor-pointer">
         <span class="absolute inset-0"></span>
-        Available on steam.
+        Dostępne na Steam
         <!-- Przypisek -->
       </a>
     </h3>

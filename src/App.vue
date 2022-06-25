@@ -1,6 +1,6 @@
 <template>
   <HomeMenu />
-  <SearchContainer />
+  <SearchContainer @updated-params="updatedParams()"/>
   <Proposed @updated-params="updatedParams()" />
   <ProductsCart
     :product-name="currentProduct"
@@ -48,7 +48,6 @@ function closedProductsCart() {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*text-align: center;*/
   color: #2c3e50;
 }
 </style>
