@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-black: #202224;
+  --mint: #41d9bd;
+  --dark-blue: #3c5473;
+  --light-orange: #f28157;
+  --orange: #d95436;
+  --dark-orange: #732119;
+}
+
+body {
+  background: #202224;
+}
+
+.background-black {
+  background: var(--background-black)
+}
+
+.text-mint {
+  color: var(--mint)
+}
